@@ -1,16 +1,25 @@
 .header {
   display: flex;
-  margin: 0px 48px 0;
+  margin: 0 48px 0;
 }
 
 @media screen and (max-width: 768px) {
   .header {
-    margin: 0px 24px 0;
+    margin: 0 24px 0;
   }
 }
 
 @media screen and (max-width: 320px) {
   .header {
-    margin: 0px 16px 0;
+    margin: 0 16px 0;
   }
 }
+
+/* ограничение максимальной ширины page, в разработке
+@media screen and (min-width: 1024px) {
+  .header {
+    margin: 0 auto 0;
+    max-width: 1184px;
+  }
+}
+*/
