@@ -14,12 +14,3 @@
     margin: 0 16px 0;
   }
 }
-
-/* ограничение максимальной ширины page, в разработке
-@media screen and (min-width: 1024px) {
-  .header {
-    margin: 0 auto 0;
-    max-width: 1184px;
-  }
-}
-*/
