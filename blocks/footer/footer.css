@@ -4,3 +4,17 @@
   margin: 92px 48px 0;
   padding: 0;
 }
+
+@media screen and (max-width: 768px) {
+  .footer {
+    margin: 88px 24px 0;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .footer {
+    flex-direction: column;
+    margin: 64px 16px 0 16px;
+    gap: 32px;
+  }
+}

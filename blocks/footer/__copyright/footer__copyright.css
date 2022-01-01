@@ -5,3 +5,11 @@
   color: #FFFFFF;
   margin: 0 0 0 auto;
 }
+
+@media screen and (max-width: 570px) {
+  .footer__copyright {
+    line-height: 14px;
+    text-align: left;
+    margin: 16px 0 0;
+  }
+}
