@@ -7,8 +7,15 @@
   align-items: center;
   justify-content: space-between;
   text-decoration: none;
+  gap: 32px;
 }
 
 .cover__overlay:hover {
   background-color: #2a2c2fcc;
+}
+
+@media screen and (max-width: 360px) {
+  .cover__overlay {
+    gap: 16px;
+  }
 }

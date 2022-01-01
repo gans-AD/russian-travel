@@ -1,7 +1,21 @@
 .cover {
-  width: 1024px;
-  height: 640px;
+  width: 100%;
+  height: calc(100vw / 1.6);
+  max-width: 1184px;
+  max-height: 740px;
   background-image: url(../../images/cover-trains.jpg);
   background-size: cover;
   margin: 92px auto 0;
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    margin: 90px auto 0;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .cover {
+    margin: 66px auto 0;
+  }
 }
