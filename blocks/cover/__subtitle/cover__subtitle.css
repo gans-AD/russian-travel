@@ -1,5 +1,5 @@
 .cover__subtitle {
-  width: 360px;
+  max-width: 360px;
   font-size: 18px;
   line-height: 1.22;
   text-align: center;
@@ -10,7 +10,7 @@
 /*ширина 430px назначена для правильного отображения на IPhone 12/13 Pro*/
 @media screen and (max-width: 430px) {
   .cover__subtitle {
-    width: 288px;
+    max-width: 288px;
     font-size: 14px;
     line-height: 1.14;
   }
