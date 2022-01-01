@@ -12,7 +12,8 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+/*ширина 430px назначена для правильного отображения на IPhone 12/13 Pro*/
+@media screen and (max-width: 430px) {
   .places {
     width: 100%;
     color: #FFFFFF;

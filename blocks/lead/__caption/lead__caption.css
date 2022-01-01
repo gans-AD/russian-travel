@@ -1,6 +1,6 @@
 .lead__caption {
   font-size: 10px;
-  line-height: 14px;
+  line-height: 1.4;
   letter-spacing: 1.5px;
   text-transform: uppercase;
   color: #ffffff;
@@ -14,7 +14,8 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+/*ширина 430px назначена для правильного отображения на IPhone 12/13 Pro*/
+@media screen and (max-width: 430px) {
   .lead__caption {
     margin-left: 16px;
   }
