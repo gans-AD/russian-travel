@@ -14,7 +14,7 @@
   background-color: #2a2c2fcc;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 425px) {
   .cover__overlay {
     gap: 16px;
   }
