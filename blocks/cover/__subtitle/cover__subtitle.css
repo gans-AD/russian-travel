@@ -7,7 +7,8 @@
   margin: 0 0 auto 0;
 }
 
-@media screen and (max-width: 425px) {
+/*ширина 430px назначена для правильного отображения на IPhone 12/13 Pro*/
+@media screen and (max-width: 430px) {
   .cover__subtitle {
     width: 288px;
     font-size: 14px;
