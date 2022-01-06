@@ -1,19 +1,14 @@
-.footer {
+.footer__links {
   display: flex;
-  margin: 92px 48px 0;
-  flex-wrap: wrap;
-}
-
-@media screen and (max-width: 768px) {
-  .footer {
-    margin: 88px 24px 0;
-  }
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 /*ширина 430px назначена для правильного отображения на IPhone 12/13 Pro*/
 @media screen and (max-width: 430px) {
-  .footer {
+  .footer__links {
     flex-direction: column;
-    margin: 64px 16px 0 16px;
+    gap: 32px;
   }
 }

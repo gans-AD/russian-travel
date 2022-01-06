@@ -1,0 +1,13 @@
+.header__links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  margin: 18px 0 6px;
+}
+
+/*ширина 430px назначена для правильного отображения на IPhone 12/13 Pro*/
+@media screen and (max-width: 430px) {
+  .header__links {
+    margin: 14px 0 8px;
+  }
+}
