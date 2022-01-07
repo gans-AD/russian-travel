@@ -1,12 +1,6 @@
 .cover {
   width: 100%;
-  height: calc(100vw / 1.6);/*если переделать на min-height --> ломается __overlay*/
   max-width: 1184px;
-  max-height: 740px; /*свойство сохраняет пропорции фона
-  при ширине экрана более 1184px
-  т.к. задано height: calc(100vw / 1.6)
-  то при ширине экрана более 1184px --> height:calc(100vw/1.6) становится больше чем 740px;
-  */
   background-image: url(../../images/cover-trains.jpg);
   background-size: cover;
   margin: 92px auto 0;
