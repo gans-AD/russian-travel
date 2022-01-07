@@ -18,8 +18,8 @@
   }
 }
 
-/*ширина 430px назначена для правильного отображения на IPhone 12/13 Pro*/
-@media screen and (max-width: 430px) {
+/*ширина 475px назначена для устранения наезжания __title на  __website*/
+@media screen and (max-width: 475px) {
   .place {
     display: flex;
     flex-direction: column;
