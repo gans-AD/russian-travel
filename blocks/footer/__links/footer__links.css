@@ -5,8 +5,7 @@
   margin: 0;
 }
 
-/*ширина 430px назначена для правильного отображения на IPhone 12/13 Pro*/
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 527px) {
   .footer__links {
     flex-direction: column;
     gap: 32px;
