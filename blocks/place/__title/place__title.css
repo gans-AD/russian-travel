@@ -13,7 +13,7 @@
 }
 
 /*ширина 430px назначена для правильного отображения на IPhone 12/13 Pro*/
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 525px) {
   .place__title {
     font-size: 32px;
     line-height: 1.09;
